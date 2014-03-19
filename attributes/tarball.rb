@@ -33,7 +33,7 @@ default[:neo4j][:server][:https][:key_location]   = 'conf/ssl/snakeoil.key'
 
 default[:neo4j][:server][:plugins][:spatial][:enabled]  = true
 default[:neo4j][:server][:plugins][:spatial][:version]  = '0.9-SNAPSHOT'
-default[:neo4j][:server][:plugins][:spatial][:url]      = "https://github.com/downloads/goodwink/neo4j-server-chef-cookbook/neo4j-spatial-#{node[:neo4j][:server][:plugins][:spatial][:version]}-server-plugin.zip"
+default[:neo4j][:server][:plugins][:spatial][:url]      = "https://cloud.github.com/downloads/goodwink/neo4j-server-chef-cookbook/neo4j-spatial-#{node[:neo4j][:server][:plugins][:spatial][:version]}-server-plugin.zip"
 
 default[:neo4j][:server][:node_auto_indexing][:enabled]         = false
 default[:neo4j][:server][:node_auto_indexing][:keys_indexable]  = ''
